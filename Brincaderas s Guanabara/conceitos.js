@@ -2,8 +2,8 @@
 
 // Váriaveis
 var username = "Rodriguinho" //nn se usa, pq é global e pd quebra td
-let age = 12
-const email = "rodrigor.filho13@gmail.com"
+let age = 12 //pode mudar
+const email = "rodrigor.filho13@gmail.com" //nunca muda. CONSTANTE.
 console.log(username, age, email)
 username = 'Ian'
 age = 23 + 1

@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
-    
+
 </head>
+
 <body>
     <h1>Vamos fazer uns códigos em JS</h1>
 
-    <script src="./index.js"></script>
+
+    <label for="name">Nome</label>
+    <input id="name" type="text" placeholder=""> <br>
+
+    <label for="email">E-mail</label>
+    <input id="email" type="email" placeholder="">
+
+    <label for="password">Senha</label>
+    <input id="password" type="password" placeholder=""> <br>
+
+    <label for="birthday">Data de Nascimento</label>
+    <input id="birthday" type="date">
+
+    <div>
+        <input type="radio" id="male" name="gender"> <label for="male">Masculino</label>
+    </div>
+    <div>
+        <input type="radio" id="female" name="gender"> <label for="female">Feminino</label>
+    </div>
+    <button onclick="validateAndSend()">TESTE</button>
+
+    <!-- <script src="./conceitos.js"></script> -->
+    <script src="./tags.js"></script>
 </body>
+
 </html>
